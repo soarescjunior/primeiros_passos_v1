@@ -1,0 +1,8 @@
+<section>
+   <h2 class="titulo">Nossos destaques</h2> 
+   <span class="linha-destaque linha-destaque--grande"></span>
+</section>
+
+@for(genero of generos; track genero){
+<app-tipo-de-produto [genero]="genero"></app-tipo-de-produto>
+}

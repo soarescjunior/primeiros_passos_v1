@@ -1,0 +1,11 @@
+<section class="generos">
+  <h2 class="texto-h3-prata" style="margin-top: 8px !important; margin-bottom: 0px;">
+    {{ genero().value }}
+  </h2>
+  <span class="linha-destaque linha-destaque--pequena"></span>
+  <div class="produto-generos">
+    @for (card of genero().cards; track card) {
+      <app-card [card]="card"></app-card>
+    }
+  </div>
+</section>

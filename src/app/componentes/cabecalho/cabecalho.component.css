@@ -1,3 +1,22 @@
-.banner img{
+.banner {
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 16px;       /* Espaçamento em cima e embaixo */
+    background-color: #ffffff;
+}
+
+.banner .logo {
+    max-width: 320px;          /* Tamanho ideal para um logotipo elegante */
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Em telas de celular fica um pouco menor */
+@media (max-width: 768px) {
+    .banner .logo {
+        max-width: 220px;
+    }
 }
