@@ -1,5 +1,21 @@
-.banner-rodape img{
-    width: 100%;
-    display: block;
-    margin-top: 120px;
+.banner-rodape {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px 16px;
+  background-color: #ffffff;
+}
+
+.banner-rodape img {
+  max-width: 320px;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .banner-rodape img {
+    max-width: 220px;
+  }
 }

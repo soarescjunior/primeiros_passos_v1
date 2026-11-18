@@ -3,3 +3,36 @@ body, html {
     margin: 0;
     padding: 0;
 }
+
+:root {
+  --font-montserrat: 'Montserrat', sans-serif;
+  --font-prata: 'Prata', serif;
+  --color-primaria: #9f9f9f;
+  --color-secundaria: #9f9f9f;
+  --font-weight-normal: 300;
+  --font-weight-bold: 500;
+}
+
+.texto-titulo {
+  font-family: var(--font-prata);
+  font-size: 40px;
+  font-weight: var(--font-weight-normal);
+  line-height: 72px;
+  text-align: center;
+  color: var(--color-secundaria);
+}
+.linha-destaque {
+  display: block;
+  margin: 0 auto;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Garante que nada transborde horizontalmente */
+}
+

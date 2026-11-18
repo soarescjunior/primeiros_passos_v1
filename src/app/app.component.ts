@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
 import { CabecalhoComponent } from './componentes/cabecalho/cabecalho.component';
 import { RodapeComponent } from './componentes/rodape/rodape.component';
+import { ListaCardsComponent } from './componentes/lista-cards/lista-cards.component';
 
 @Component({
   selector: 'app-root',
   imports: [
     CabecalhoComponent, 
-    RodapeComponent
-  ],
+    RodapeComponent,
+    ListaCardsComponent ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
